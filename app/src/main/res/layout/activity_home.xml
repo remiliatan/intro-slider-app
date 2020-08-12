@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/white"
+        tools:context=".HomeActivity"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="10dp"
+            android:maxHeight="320dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_finish"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/notobold"
+                android:textColor="#333"
+                android:textAllCaps="true"
+                android:text="Good Job!"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/notoregular"
+                android:textColor="#333"
+                android:text="Close and re-open the application to try again"/>
+    </LinearLayout>
+
+</RelativeLayout>

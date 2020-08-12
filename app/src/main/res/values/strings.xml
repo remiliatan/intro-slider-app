@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SplashDanIntroduction</string>
+    <string name="text1">Do everything from home</string>
+    <string name="desc1">Work and activities from your home</string>
+    <string name="text2">GAME and Pets</string>
+    <string name="desc2">Improve your game level and the love of pets from home</string>
+    <string name="text3">Develop your thinking</string>
+    <string name="desc3">At home you can calmly express your thoughts without being disturbed by other people. Just take it easy</string>
+</resources>
